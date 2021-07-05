@@ -11,5 +11,5 @@ Good luck! :D
 const squaresOnly = (a) => {
   let b = [];
   a.forEach(e => {if(Math.sqrt(e) === Math.floor(Math.sqrt(e))){b.push(e)}});
-  return b
+  return b;
 }
